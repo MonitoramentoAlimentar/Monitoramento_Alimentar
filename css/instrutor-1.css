@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 136, 127);
+
+    padding: 5px;
+
+    font-family: "Instrument Sans", sans-serif;
+
+    color: azure;
+    overflow-y: hidden;
+}
+main{
+    height: 99vh;
+
+    background-color: rgb(0, 184, 173);
+
+    border-radius: 30px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+
+    height: 90vh;
+}
+.sesi-logo{
+    width: 150px;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 20px;
+    }
+}
+.buttons-week{
+
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgba(240, 255, 255, 0.596);
+    color:rgb(0, 184, 173);
+
+    border: none;
+
+    width: 6vw;
+    height: 5vh;
+
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: bold;
+
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+@media(max-width: 1200px){
+    button{
+        width: 15vw;
+    }
+}
+.first-button{
+    border-radius: 5px 0px 0px 5px;
+}
+.last-button{
+    border-radius: 0px 5px 5px 0px;
+}
+input{
+    height: 5vh;
+    width: 300px;
+
+    padding-left: 15px;
+
+    background-color: azure;
+
+    font-size: 2vh;
+    font-family: "Instrument Sans", sans-serif;
+
+    border: 1px solid grey;
+    outline: 1px solid rgb(172, 172, 172);
+    outline-offset: -8px;
+    border-radius: 5px;
+}
+.confirmar{
+    height: 5vh;
+    width: 200px;
+
+    background-color: azure;
+    color:rgb(0, 184, 173);
+
+    font-size: 20px;
+
+    border: none;
+    border-radius: 5px;
+
+    transition: 1s;
+
+}
+.confirmar:hover{
+    transform: scale(1.1);
+
+    cursor: pointer;
+}
+.perfil{
+    margin-left: 20px;
+}
+.confirmacao1{
+    position: absolute;
+    z-index: 5;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: azure;
+    color: black;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+
+    width: 30vw;
+    height: 20vh;
+
+}
+.ativo{
+    background-color: azure;
+}
+.divDia{
+    display: none;
+}
+

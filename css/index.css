@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 136, 127);
+
+    padding: 5px;
+
+    overflow-y: hidden;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+
+    height: 99vh;
+
+    background-color: rgb(0, 184, 173);
+
+    border-radius: 30px;
+}
+.sesi-logo{
+    width: 150px;
+}
+.people{
+    width: 300px;
+}
+h1{
+    color: azure;
+
+    font-size: 4vh;
+
+    font-family: "Instrument Sans", sans-serif;
+}
+input{
+    height: 5vh;
+    width: 300px;
+
+    padding-left: 15px;
+
+    background-color: azure;
+
+    font-size: 2vh;
+    font-family: "Instrument Sans", sans-serif;
+
+    border: 1px solid grey;
+    outline: 1px solid rgb(172, 172, 172);
+    outline-offset: -8px;
+    border-radius: 5px;
+}
+.text-error{
+    color: red;
+
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 2vh;
+}
+.botao-login, .instrutor{
+    height: 5vh;
+    width: 200px;
+
+    background-color: azure;
+    color:rgb(0, 184, 173);
+
+    font-size: 20px;
+
+    border: none;
+    border-radius: 5px;
+
+    transition: 1s;
+
+}
+.botao-login:hover{
+    transform: scale(1.1);
+
+    cursor: pointer;
+}
+.instrutor-div{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.instrutor{
+    background-color: transparent;
+    color:azure;
+    opacity: 0.8;
+
+    margin-right: 10px;
+}
+.instrutor:hover{
+    opacity: 1.0;
+}
+
+    
+
+
+    

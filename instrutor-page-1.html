@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/instrutor-1.css">
+    
+    <title>Monitoramento Alimentar | Instrutor</title>
+</head>
+<body>
+    <main>
+        <div class="principal">
+            <picture>
+                <img class="sesi-logo" src="./img/sesi-logo.png">
+            </picture>
+    
+            <h1>Inserir o alimento da semana</h1>
+
+            <div class="buttons-week">
+                <button class="diaDaSemana" onclick="mudarBotao(0)" id="seg">SEG</button>
+                <button class="diaDaSemana" onclick="mudarBotao(1)" id="ter">TER</button>
+                <button class="diaDaSemana" onclick="mudarBotao(2)" id="qua">QUA</button>
+                <button class="diaDaSemana" onclick="mudarBotao(3)" id="seg">QUI</button>
+                <button class="diaDaSemana" onclick="mudarBotao(4)" id="seg">SEX</button>
+            </div>
+            <div class="alimentos">
+                <label >Carboidrato</label><br>
+                <input type="text" required id="carbo"><br><br>
+
+                <label>Adicional</label><br>
+                <input type="text" id="adicional"><br><br>
+
+                <label>Bebida</label><br>
+                <input type="text" required id="bebida"><br><br>
+
+                <label>Sobremesa</label><br>
+                <input type="text" required id="sobremesa"><br><br>
+
+                <button class="confirmar" onclick="confirmarAlimento()">Confirmar</button>
+            </div>
+            <!-- <div class="confirmacao1">
+                <p>deseja confirmar os itens?</p>
+                <p id="carboidrato"></p>
+                <p id="adicional"></p>
+                <p id="bebida"></p>
+                <p id="sobremesa"></p>
+
+                <div>
+                    <button class="botao-confirma">editar</button>
+                    <button class="botao-confirma">confirmar</button>
+                </div>
+            </div> -->
+        </div>
+        <div class="perfil">
+            <p>PERFIL LOGADO</p><br>
+            <div class="info">
+                <p id="nome1"></p>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="./script/instrutor-1.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</body>
+</html>

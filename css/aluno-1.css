@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 136, 127);
+
+    padding: 5px;
+
+    font-family: "Instrument Sans", sans-serif;
+
+    color: azure;
+
+    overflow-y: hidden;
+}
+main{
+    height: 99vh;
+
+    background-color: rgb(0, 184, 173);
+
+    border-radius: 30px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+
+    height: 90vh;
+}
+.sesi-logo{
+    width: 150px;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 25px;
+    }
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+
+
+}
+button{
+    width: 20vw;
+    height: 5vh;
+
+    background-color: azure;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    font-family: "Instrument Sans", sans-serif;
+
+}
+@media(max-width: 1000px){
+    button{
+        width: 35vw;
+    }
+}
+.first-button{
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+
+    transition: 0.5s;
+}
+.first-button:hover{
+    border-radius: 10px;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
+}
+.last-button{
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+
+    transition: 0.5s;
+}
+.last-button:hover{
+    border-radius: 10px;
+
+    transform: scale(1.05);
+
+    cursor: pointer;
+}
+
+.perfil{
+    margin-left: 20px;
+}
+.info{
+    display: inline-flex;
+
+    flex-wrap: wrap;
+
+}
